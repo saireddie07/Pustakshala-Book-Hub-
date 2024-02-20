@@ -1,0 +1,20 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    >
+    <ImageView
+        android:id="@+id/imgSplashMainLogo"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/mainlogo"
+        android:layout_centerInParent="true"/>
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgSplashMainLogo"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
